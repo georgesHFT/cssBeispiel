@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet"');
+
+html,body{
+    font-family: 'Baloo+Thambi',sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/oriental-tiles.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+td{
+    border-width: 1px;
+    border-color: hotpink;
+    border-style: dashed;
+}
 table{
-    border: 10px solid red;
+    border-collapse: collapse;
+}
+tbody > tr:nth-child(add) {
+    background-attachment: darkseagreen;
+
+}
+tbody > tr:nth-child(even){
+    background: white;
+}
+a:hover {
+    color: limegreen;
+
 }
